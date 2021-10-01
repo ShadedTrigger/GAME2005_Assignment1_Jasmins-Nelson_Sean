@@ -131,12 +131,12 @@ void PlayScene::start()
 
 	m_pBG = new Background();
 	addChild(m_pBG);
-	
-	m_pProjectile = new Projectile();
-	addChild(m_pProjectile);
 
 	m_pStormtroopers = new Obstacle();
 	addChild(m_pStormtroopers);
+	
+	m_pProjectile = new Projectile();
+	addChild(m_pProjectile);
 
 	m_pStormtroopers->getTransform()->position.x = m_stormtrooperX;
 	m_pStormtroopers->getTransform()->position.y = m_startingY - 50;
