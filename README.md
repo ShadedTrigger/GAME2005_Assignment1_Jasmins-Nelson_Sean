@@ -1,1 +1,2 @@
-Sean Jasmins-Nelson Labs for GAME2005
+GAME2005 Assignment 1
+Sean Jasmins-Nelson (101297706)
